@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# source <(curl -s https://gist.githubusercontent.com/Driaan/761f257b61aa8b46ab4da7e82f9d9ad6/raw/add_ssh_users_driaan_hendrik.sh)
+
 sudo useradd -m hvisage
 sudo mkdir ~hvisage/.ssh
 cat << EOFF | sudo tee ~hvisage/.ssh/authorized_keys
